@@ -236,3 +236,21 @@ select {
     margin: 3rem;
   }
 }
+@media all and (max-width: 850px) {
+  .mobile-feature-image {
+    display: none;
+  }
+  .mobile-feature-copy,
+  .ios .mobile-feature-copy,
+  .e-book .mobile-feature-copy {
+    padding: 3rem;
+    width: 100%;
+  }
+}
+@media all and (max-width: 767px) {
+  .about-sidebar,
+  .about-content {
+    float: none;
+    width: 100%;
+  }
+}
