@@ -177,6 +177,8 @@ select {
   width: 100%;
 }
 .text-content {
+  margin: 0 auto;
+  max-width: 700px;
   padding: 3rem;
 }
 .mobile-feature-copy {
