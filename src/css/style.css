@@ -5,7 +5,7 @@ html {
 body {
   background: #f2f2f2;
   color: #514d47;
-  font: normal 400 15px/25px "Gotham A", "Gotham B", Helvetica, Arial, sans-serif;
+  font: normal 400 15px/25px "Gotham A", "Gotham B", Gotham, Helvetica, Arial, sans-serif;
   letter-spacing: .025rem;
 }
 a {
@@ -181,6 +181,8 @@ select {
   max-width: 700px;
   padding: 3rem;
 }
+
+/* Mobile */
 .mobile-feature-copy {
   box-sizing: border-box;
   color: #fff;
@@ -223,6 +225,7 @@ select {
   background: url("../img/free-resources-hero.png");
 }
 
+/* About */
 .about-sidebar {
   width: 35%;
 }
@@ -237,8 +240,14 @@ select {
 .about-sidebar h2:first-of-type {
   margin-top: 0;
 }
+.about-sidebar h2 a {
+  color: #514d47;
+}
 .about-sidebar h3 {
   margin-top: 1rem;
+}
+.about-sidebar h3 a {
+  color: #807e7a;
 }
 
 /* Footer */
@@ -267,6 +276,12 @@ select {
   }
 }
 @media all and (max-width: 767px) {
+  .main-nav a {
+    padding: 0 .75rem;
+  }
+  .main-nav ul li:first-of-type {
+    margin-left: 2.5rem;
+  }
   .about-sidebar,
   .about-content {
     float: none;
